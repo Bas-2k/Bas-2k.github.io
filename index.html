@@ -223,7 +223,7 @@
 	<table align=center width=850px>
 		<center><h1>Method</h1></center>
 		<tr>
-			<td>
+			<td align="justify">
 				Our approach, GAMMA-FACE shown in the Figure, addresses bias in downstream classification tasks related to sensitive attributes such as gender, race, and age. We utilize GMM in the noisy latent space of diffusion models to segregate features in a high-dimensional space and generate images by sampling uniformly from each component. These images are assigned pseudo-labels for attributes by pre-trained classifiers. Additionally, for downstream tasks like smile, glasses, or hair color classification, we augment original training data with generated data and their pseudo-labels. Our results demonstrate improved overall accuracy and reduced bias (with respect to the protected attributes) in target classification tasks.
 			</td>
 		</tr>
@@ -231,10 +231,16 @@
 	<br>
 
 	<hr>
-	<center><h1>Talk</h1></center>
-	<p align="center">
-		<iframe width="660" height="395" src="https://www.youtube.com/embed/dQw4w9WgXcQ" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen align="center"></iframe>
-	</p>
+	<table align=center width=850px>
+	<center><h1>Quantitative Results</h1></center>
+	<tr>
+		<td width=260px>
+			<center>
+				<img class="round" style="width:850px" src="groupedtab.png"/>
+			</center>
+		</td>
+	</tr>
+	
 
 	<table align=center width=800px>
 		<br>
